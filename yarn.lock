@@ -310,6 +310,16 @@
     "@types/lodash" "*"
     "@types/validator" "*"
 
+"@types/sequelize@^4.28.9":
+  version "4.28.9"
+  resolved "https://registry.npm.taobao.org/@types/sequelize/download/@types/sequelize-4.28.9.tgz#64d0fad07de2f30ef11003a8c2ef5ac0321de115"
+  integrity sha1-ZND60H3i8w7xEAOowu9awDId4RU=
+  dependencies:
+    "@types/bluebird" "*"
+    "@types/continuation-local-storage" "*"
+    "@types/lodash" "*"
+    "@types/validator" "*"
+
 "@types/serve-static@*":
   version "1.13.2"
   resolved "http://registry.npm.taobao.org/@types/serve-static/download/@types/serve-static-1.13.2.tgz#f5ac4d7a6420a99a6a45af4719f4dcd8cd907a48"

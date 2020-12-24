@@ -177,10 +177,6 @@
   version "3.5.25"
   resolved "http://registry.npm.taobao.org/@types/bluebird/download/@types/bluebird-3.5.25.tgz#59188b871208092e37767e4b3d80c3b3eaae43bd"
 
-"@types/bluebird@3.5.18":
-  version "3.5.18"
-  resolved "http://registry.npm.taobao.org/@types/bluebird/download/@types/bluebird-3.5.18.tgz#6a60435d4663e290f3709898a4f75014f279c4d6"
-
 "@types/body-parser@*":
   version "1.17.0"
   resolved "http://registry.npm.taobao.org/@types/body-parser/download/@types/body-parser-1.17.0.tgz#9f5c9d9bd04bb54be32d5eb9fc0d8c974e6cf58c"
@@ -282,10 +278,6 @@
   version "10.12.18"
   resolved "http://registry.npm.taobao.org/@types/node/download/@types/node-10.12.18.tgz#1d3ca764718915584fcd9f6344621b7672665c67"
 
-"@types/node@6.0.41":
-  version "6.0.41"
-  resolved "http://registry.npm.taobao.org/@types/node/download/@types/node-6.0.41.tgz#578cf53aaec65887bcaf16792f8722932e8ff8ea"
-
 "@types/power-assert-formatter@*":
   version "1.4.28"
   resolved "http://registry.npm.taobao.org/@types/power-assert-formatter/download/@types/power-assert-formatter-1.4.28.tgz#25b8fddb6322259c6b91c35338d39b0f8e524252"
@@ -300,15 +292,6 @@
 "@types/range-parser@*":
   version "1.2.3"
   resolved "http://registry.npm.taobao.org/@types/range-parser/download/@types/range-parser-1.2.3.tgz#7ee330ba7caafb98090bece86a5ee44115904c2c"
-
-"@types/sequelize@4.27.24":
-  version "4.27.24"
-  resolved "http://registry.npm.taobao.org/@types/sequelize/download/@types/sequelize-4.27.24.tgz#7d593c062c368f570c68b0217f5c1d4c892ead48"
-  dependencies:
-    "@types/bluebird" "*"
-    "@types/continuation-local-storage" "*"
-    "@types/lodash" "*"
-    "@types/validator" "*"
 
 "@types/sequelize@^4.28.9":
   version "4.28.9"
@@ -2406,10 +2389,6 @@ es6-set@~0.1.5:
     es6-iterator "~2.0.1"
     es6-symbol "3.1.1"
     event-emitter "~0.3.5"
-
-es6-shim@0.35.3:
-  version "0.35.3"
-  resolved "http://registry.npm.taobao.org/es6-shim/download/es6-shim-0.35.3.tgz#9bfb7363feffff87a6cdb6cd93e405ec3c4b6f26"
 
 es6-symbol@3.1.1, es6-symbol@^3.1.1, es6-symbol@~3.1.1:
   version "3.1.1"
@@ -5039,14 +5018,11 @@ seq-queue@0.0.5:
   version "0.0.5"
   resolved "http://registry.npm.taobao.org/seq-queue/download/seq-queue-0.0.5.tgz#d56812e1c017a6e4e7c3e3a37a1da6d78dd3c93e"
 
-sequelize-typescript@^0.6.6:
-  version "0.6.6"
-  resolved "http://registry.npm.taobao.org/sequelize-typescript/download/sequelize-typescript-0.6.6.tgz#926037b542dae9f4eff20609d095cc5e3a3640f3"
+sequelize-typescript@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npm.taobao.org/sequelize-typescript/download/sequelize-typescript-1.1.0.tgz#d5c2945e7fbfe55a934917b27d84589858d79123"
+  integrity sha1-1cKUXn+/5VqTSReyfYRYmFjXkSM=
   dependencies:
-    "@types/bluebird" "3.5.18"
-    "@types/node" "6.0.41"
-    "@types/sequelize" "4.27.24"
-    es6-shim "0.35.3"
     glob "7.1.2"
 
 sequelize@^4.38.0:
